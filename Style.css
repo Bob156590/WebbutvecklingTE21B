@@ -7,7 +7,7 @@ h1{
     text-align: center;
 }
 
-p{
+.me{
     border: 1px solid red ;
 }
 
@@ -21,4 +21,8 @@ h1{font-size: 22px; font-family: Arial;}
 
 .program{
     text-align: right;
+}
+
+a{
+    text-decoration: none;
 }
