@@ -8,17 +8,6 @@ table, th, td{
 tr:nth-child(even){
     background-color: yellow;
 }
-.center{
-    text-align: center;
-}
-
-.left{
-    text-align: left;
-}
-
-.right{
-    text-align: right;
-}
 
 tr:nth-child(3){
     background-color: red;
@@ -30,4 +19,16 @@ tr:nth-child(5){
 
 tr:nth-child(1){
     background-color: lightgray;
+}
+
+td:nth-child(4), th:nth-child(4){
+    text-align: right;
+}
+
+td:nth-child(2), td:nth-child(3){
+    text-align: center;
+}
+
+th:nth-child(1){
+    text-align: left;
 }
