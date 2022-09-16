@@ -6,12 +6,32 @@ body{
     color: rgb(199, 194, 194);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5em 0.5em;
+    grid-template-rows: 70px auto 70px;
     grid-template-areas:
     "header header"
-    "nav nav"
     "main1 main2"
     "footer footer";
+}
+
+
+
+header{
+    grid-area: header;
+    background-color: rgb(66, 5, 5);
+}
+
+
+
+section{
+
+}
+
+main{
+    grid-area: main1;
+}
+
+aside{
+    grid-area: main2;
 }
 
 h1{
@@ -22,18 +42,22 @@ h1{
     border: 1px solid red ;
 }
 
-h1{font-size: 22px; font-family: Arial;}
+h1{
+    font-size: 22px; font-family: Arial;
+}
 
-.Ks{
-    background-color: darkblue;
-    color: green;
-    text-align: center;
+img{
+    width:70%;
 }
 
 .program{
-    text-align: right;
+    text-align: left;
 }
 
 a{
     text-decoration: none;
+}
+footer{
+    grid-area: footer;
+
 }
