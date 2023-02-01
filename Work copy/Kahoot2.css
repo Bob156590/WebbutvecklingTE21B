@@ -1,0 +1,18 @@
+body{
+    display: grid;
+    grid-template-columns: 33vw auto 33vw;
+    grid-template-rows: 33vh auto 33vh;
+    grid-template-areas: 
+    "nothing nothing nothing"
+    "nothing section nothing"
+    "nothing nothing nothing"
+    ;
+    margin: 0%;
+    background: lightblue;
+}
+
+section{
+    grid-area: section;
+    background: yellow;
+    border-radius: 50%;
+}
