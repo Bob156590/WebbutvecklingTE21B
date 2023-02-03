@@ -1,0 +1,18 @@
+body{
+    display: grid;
+    grid-template-columns: 10vw 80vw 10vw;
+    grid-template-rows: 100vh;
+    grid-template-areas: 
+    "header main asdie"
+    ;
+    margin: 0%;
+    background-color: lightblue;
+    justify-items: center;
+}
+
+main{
+    background: yellow;
+    border-radius: 50%;
+    width: 60vw;
+    height: 100vh;
+}

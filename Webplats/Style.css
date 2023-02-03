@@ -1,0 +1,28 @@
+body{
+    background: gray;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto auto;
+    grid-template-areas:
+    "headder"
+    "main"
+    "aside"
+    ;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+aside{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
