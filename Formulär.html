@@ -9,18 +9,36 @@
     <body>
         <h1>Formulär övning</h1>
         <p>Vad heter du</p>
-        <form action="Formulär.html" method="post">
+        <form method="post" action="Submit.html">
             <label for="fNamn">Förnamn: </label>
             <input type="text" id="fNamn" Name="fNamn"><br><br>
             <label for="eNamn">Efternamn: </label>
             <input type="text" id="eNamn" Name="eNamn"><br>
-            <p>Vilka av dessa kryddor gillar du</p>
-            <input type="checkbox" name="ketchup">
-            <label for="ketchup">ketchup</label><br>
-            <input type="checkbox" name="">
-            <label for=""></label><br>
-            <input type="checkbox">
-            <label for=""></label><br>
+            <p>Kön</p>
+            <input type="radio" id="Kön1" name="Kön" value="Man">
+            <label for="Kön1">Man</label>
+            <input type="radio" id="Kön2" name="Kön" value="Kvinna">
+            <label for="Kön2">Kvinna</label>
+            <input type="radio" id="Kön3" name="Kön" value="Icke binär">
+            <label for="Kön3">Icke binär</label>
+            <input type="radio" id="VIS" name="Kön" value="Vill inte säga">
+            <label for="VIS">Vill inte säga</label>
+            <p>Vinken eller Vilka av dessa kryddor gillar du</p>
+            <input type="checkbox" id="Krydda1" name="ketchup">
+            <label for="Krydda1">ketchup</label><br>
+            <input type="checkbox" id="Krydda2" name="Senap">  
+            <label for="Krydda2">Senap</label><br>
+            <input type="checkbox" id="Krydda3" name="Majonnäs">
+            <label for="Krydda3">Majonnäs</label><br><br>
+            <label for="Mat">Välj en favoritkött</label>
+            
+            <select id="Mat">
+                <option label="nötkött">Nötkött</option>
+                <option label="Kyckling">Kyckling</option>
+                <option label="rådjur">rådjur</option>
+                <option label="haram">Haram</option>
+                <option label="älg">älg</option>
+            </select><br><br>
             <input type="submit" value="skicka">
         </form>
     </body>
